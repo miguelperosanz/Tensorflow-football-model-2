@@ -1,6 +1,9 @@
 # Tensorflow-football-model-2
 
-This script uses the Tensorflow neural network to predict betting-odds, goals, corner and many variables in a football match using tensorflow. The input for the neural network are the team-ratings from the FIFA videogame database. I collected the data from the webpage wwww.sofifa.com. I have not uploaded it to Github because I don't really know if I might find copyright issues. The script should be executed in a Tensorflow environment (Firstenv). In a standard environment there might be issues when importing the Tensorflow library.
+This script uses the Tensorflow neural network to predict betting-odds, goals, corner and many variables in a football match using tensorflow. The input for the neural network are the team-ratings from the FIFA videogame database. I collected the data from the webpage wwww.sofifa.com. I have not uploaded it to Github because I don't really know if I might find copyright issues. The script should be executed in a Tensorflow environment (Firstenv). In a standard environment there might be issues when importing the Tensorflow library. For a correct implementation of a new environment in Jupyter Notebook this link might be helpful:
+
+https://medium.com/@nrk25693/how-to-add-your-conda-environment-to-your-jupyter-notebook-in-just-4-steps-abeab8b8d084
+
 
 - The files "apuestas_teams_20xx" are the scripts used to get the data of every season that will be used as input in the 
 neural network. At the moment I collected it for the seasons 2018 and 2019. The database will probably be enlarged with more seasons in the future. For summarizing, the script takes the ratings of the spanish, german and italian teams for every season and
